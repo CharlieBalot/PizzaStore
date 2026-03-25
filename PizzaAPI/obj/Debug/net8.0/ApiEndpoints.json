@@ -1,0 +1,362 @@
+[
+  {
+    "ContainingType": "PizzaAPI.Controllers.OrdersDetailsController",
+    "Method": "GetAllOrderDetailsAsync",
+    "RelativePath": "order-details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagingParameter",
+        "Type": "PizzaAPI.Models.PagingParameter",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaAPI.Controllers.OrdersDetailsController",
+    "Method": "CreateOrderDetailsAsync",
+    "RelativePath": "order-details",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "body",
+        "Type": "PizzaData.Models.OrderDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaAPI.Controllers.OrdersDetailsController",
+    "Method": "GetOrderDetailsByIdAsync",
+    "RelativePath": "order-details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaAPI.Controllers.OrdersDetailsController",
+    "Method": "UpdateOrderDetailsAsync",
+    "RelativePath": "order-details/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "orderDetails",
+        "Type": "PizzaData.Models.OrderDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaAPI.Controllers.OrdersDetailsController",
+    "Method": "DeleteOrderDetailsAsync",
+    "RelativePath": "order-details/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaAPI.Controllers.OrdersController",
+    "Method": "GetAllOrdersAsync",
+    "RelativePath": "orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagingParameter",
+        "Type": "PizzaAPI.Models.PagingParameter",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaAPI.Controllers.OrdersController",
+    "Method": "CreateOrdersAsync",
+    "RelativePath": "orders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "body",
+        "Type": "PizzaData.Models.Orders",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaAPI.Controllers.OrdersController",
+    "Method": "GetOrdersByIdAsync",
+    "RelativePath": "orders/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaAPI.Controllers.OrdersController",
+    "Method": "UpdateOrdersAsync",
+    "RelativePath": "orders/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "orders",
+        "Type": "PizzaData.Models.Orders",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaAPI.Controllers.OrdersController",
+    "Method": "DeleteOrdersAsync",
+    "RelativePath": "orders/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaAPI.Controllers.PizzaController",
+    "Method": "GetAllPizzaAsync",
+    "RelativePath": "pizza",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagingParameter",
+        "Type": "PizzaAPI.Models.PagingParameter",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaAPI.Controllers.PizzaController",
+    "Method": "CreatePizzaAsync",
+    "RelativePath": "pizza",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "body",
+        "Type": "PizzaData.Models.Pizzas",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaAPI.Controllers.PizzaTypeController",
+    "Method": "GetAllPizzaTypeAsync",
+    "RelativePath": "pizza-type",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagingParameter",
+        "Type": "PizzaAPI.Models.PagingParameter",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaAPI.Controllers.PizzaTypeController",
+    "Method": "CreatePizzaTypeAsync",
+    "RelativePath": "pizza-type",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "body",
+        "Type": "PizzaData.Models.PizzaType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaAPI.Controllers.PizzaTypeController",
+    "Method": "GetPizzaTypeByIdAsync",
+    "RelativePath": "pizza-type/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaAPI.Controllers.PizzaTypeController",
+    "Method": "UpdatePizzaTypeAsync",
+    "RelativePath": "pizza-type/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "pizza",
+        "Type": "PizzaData.Models.PizzaType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaAPI.Controllers.PizzaTypeController",
+    "Method": "DeletePizzaAsync",
+    "RelativePath": "pizza-type/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaAPI.Controllers.PizzaController",
+    "Method": "GetPizzaByIdAsync",
+    "RelativePath": "pizza/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaAPI.Controllers.PizzaController",
+    "Method": "UpdatePizzaAsync",
+    "RelativePath": "pizza/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "pizza",
+        "Type": "PizzaData.Models.Pizzas",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaAPI.Controllers.PizzaController",
+    "Method": "DeletePizzaAsync",
+    "RelativePath": "pizza/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaAPI.Controllers.StatisticsController",
+    "Method": "GetBestSellerPizza",
+    "RelativePath": "statistics/get-best-seller-pizza",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaAPI.Controllers.StatisticsController",
+    "Method": "GetLeastPopularPizza",
+    "RelativePath": "statistics/get-least-popular-pizza",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
