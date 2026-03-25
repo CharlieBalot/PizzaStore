@@ -5,6 +5,9 @@ Challenge project for guerilla360 application
 The goal of this test is to create a consumable RESTful API for importing, storing and retrieving sales 
 data.
 
+### Schema Used
+* Code First with Entity Framework
+
 ## Prerequisites
 * Visual Studio with .Net Core installed
 * Target Framework .Net 8.0
@@ -16,7 +19,6 @@ data.
   - Microsoft.EntityFrameworkCore.Design v8.0.25
   - Microsoft.EntityFrameworkCore.SqlServer v8.0.25
   - Microsoft.EntityFrameworkCore.Tools v8.0.25
-
 
 ## How to Run
 Note: Assuming that the CSV files are already in place in CSVFiles folder
@@ -37,8 +39,7 @@ Note: Assuming that the CSV files are already in place in CSVFiles folder
     SELECT * FROM [pizzaDB].[dbo].[Pizzas]
     SELECT * FROM [pizzaDB].[dbo].[OrderDetails]
     SELECT * FROM [pizzaDB].[dbo].[Orders]
-    ```
-    
+    ```    
     
   ### REST API
   * Set PizzaAPI Project as Startup Project
@@ -51,5 +52,7 @@ Note: Assuming that the CSV files are already in place in CSVFiles folder
       - Get Statistics / Best Seller Pizza = https://localhost:PORT_NUMBER/statistics/get-best-seller-pizza
       - Get Statistics / Least Popular Pizza = https://localhost:PORT_NUMBER/statistics/get-best-seller-pizza
 
-      
+   ### Test Evidence   
+   * [PizzaStore_WebAPI_DataUploadTestEvidence.docx](https://github.com/CharlieBalot/PizzaStore/blob/main/PizzaStore_WebAPI_DataUploadTestEvidence.docx)
+
  
